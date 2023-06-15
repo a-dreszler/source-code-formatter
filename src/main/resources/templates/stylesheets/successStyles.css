@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+
+code {
+    display: block;
+    border: 2px dashed black;
+    padding: 1em;
+}

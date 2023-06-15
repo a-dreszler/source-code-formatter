@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <title>Code Formatter - result</title>
+        <link rel="stylesheet" href="stylesheets/successStyles.css">
+    </head>
+    <body>
+        <h1>Formatting results</h1>
+        <div class="results">
+            <div>
+                <p>Code before formatting:</p>
+                <code th:text="${codeBefore}">
+                    class Example {<br>
+                    public static void main(String[] args) {int x=10;<br>
+                    for (int i = 1; i <= x; i++) {<br>
+                    System.out.println(i);<br>
+                    }}}
+                </code>
+            </div>
+            <div>
+                <p>Code after formatting:</p>
+                <code th:text="${codeAfter}">
+                    class Example {<br>
+                    public static void main(String[] args) {int x=10;<br>
+                    for (int i = 1; i <= x; i++) {<br>
+                    System.out.println(i);<br>
+                    }}}
+                </code>
+            </div>
+        </div>
+    </body>
+</html>
