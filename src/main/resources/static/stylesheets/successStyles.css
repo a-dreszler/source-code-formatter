@@ -9,7 +9,8 @@ h1 {
     justify-content: center;
 }
 
-code {
+pre {
+    font-family: "Courier New", ui-monospace;
     display: block;
     border: 2px dashed black;
     padding: 1em;
